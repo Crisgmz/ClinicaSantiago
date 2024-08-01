@@ -1,0 +1,14 @@
+﻿using ClinicaSantiago.Modal;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClinicaSantiago.Comunes
+{
+    public static class Global
+    {
+        public static InfoUsuario InfoUsuario { get; set; } = new InfoUsuario();
+    }
+}
